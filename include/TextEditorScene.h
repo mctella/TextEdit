@@ -7,6 +7,9 @@
 #include "Texture.h"
 #include <vector>
 #include <string>
+#include <fstream>
+#include <filesystem>
+#include <sstream>
 #include "dialog.h"
 
 class TextEditorScene : public Game{
@@ -23,6 +26,9 @@ class TextEditorScene : public Game{
 
         std::vector<Texture> lineTexture;
         std::string currentFile;
+
+        int scrollOffset = 0;
+        const int maxVisibleLines = 29;
     public:
         TextEditorScene(const std::string& filepath = "");
 

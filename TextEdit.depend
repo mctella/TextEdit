@@ -447,16 +447,18 @@
 	"begin_code.h"
 	"close_code.h"
 
-1793369304 source:c:\users\diego\documents\t1tangames\textedit\src\texteditorscene.cpp
+1793921746 source:c:\users\diego\documents\t1tangames\textedit\src\texteditorscene.cpp
 	"TextEditorScene.h"
-	<fstream>
 
-1793366566 c:\users\diego\documents\t1tangames\textedit\include\texteditorscene.h
+1793721474 c:\users\diego\documents\t1tangames\textedit\include\texteditorscene.h
 	<Game.h>
 	"Font.h"
 	"Texture.h"
 	<vector>
 	<string>
+	<fstream>
+	<filesystem>
+	<sstream>
 	"dialog.h"
 
 1793217233 c:\users\diego\documents\t1tangames\t1tanengine\include\game.h
@@ -482,17 +484,18 @@
 
 1790888542 c:\users\diego\documents\t1tangames\t1tanengine\include\countdown.h
 
-1793367784 c:\users\diego\documents\t1tangames\t1tanengine\include\input.h
+1793720113 c:\users\diego\documents\t1tangames\t1tanengine\include\input.h
 	<SDL2/SDL.h>
 	<string>
 
-1793233203 c:\users\diego\documents\t1tangames\t1tanengine\include\audiosystem.h
+1793819048 c:\users\diego\documents\t1tangames\t1tanengine\include\audiosystem.h
 	"SDL2/SDL.h"
 	"InitError.h"
 	<cstdint>
 	<vector>
 	<utility>
 	<memory>
+	<queue>
 	<algorithm>
 
 1790341621 c:\users\diego\documents\t1tangames\t1tanengine\include\initerror.h
@@ -500,7 +503,7 @@
 	<exception>
 	"SDL2/SDL.h"
 
-1793216840 c:\users\diego\documents\t1tangames\t1tanengine\include\renderer.h
+1793838919 c:\users\diego\documents\t1tangames\t1tanengine\include\renderer.h
 	"Window.h"
 	"Texture.h"
 	"Geometry.h"
@@ -514,10 +517,11 @@
 	"Renderer.h"
 	"SDL2/SDL.h"
 
-1792530829 c:\users\diego\documents\t1tangames\t1tanengine\include\resourcemanager.h
+1793966728 c:\users\diego\documents\t1tangames\t1tanengine\include\resourcemanager.h
 	"AudioSystem.h"
 	<ios>
 	<string>
+	<string.h>
 	<fstream>
 
 1793206815 c:\users\diego\documents\t1tangames\t1tanengine\include\scenemanager.h
@@ -538,7 +542,7 @@
 	"begin_code.h"
 	"close_code.h"
 
-1793362438 c:\users\diego\documents\t1tangames\textedit\include\dialog.h
+1793837674 c:\users\diego\documents\t1tangames\textedit\include\dialog.h
 	<windows.h>
 	<commdlg.h>
 	<string>

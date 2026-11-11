@@ -9,7 +9,7 @@
 			<Target title="Debug">
 				<Option output="bin/Debug/TextEdit" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Debug/" />
-				<Option type="1" />
+				<Option type="0" />
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
@@ -58,6 +58,7 @@
 			<Add after="XCOPY $(#sdl2)\bin\*.dll $(TARGET_OUTPUT_DIR) /D /Y" />
 		</ExtraCommands>
 		<Unit filename="include/TextEditorScene.h" />
+		<Unit filename="include/dialog.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/TextEditorScene.cpp" />
 		<Extensions />
